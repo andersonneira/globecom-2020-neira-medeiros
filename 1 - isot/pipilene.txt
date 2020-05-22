@@ -1,0 +1,17 @@
+{
+   "balancing:strategy":"none",
+   "classifier:__choice__":"adaboost",
+   "data_preprocessing:categorical_transformer:categorical_encoding:__choice__":"no_encoding",
+   "data_preprocessing:categorical_transformer:category_coalescence:__choice__":"minority_coalescer",
+   "data_preprocessing:numerical_transformer:imputation:strategy":"median",
+   "data_preprocessing:numerical_transformer:rescaling:__choice__":"normalize",
+   "feature_preprocessor:__choice__":"select_rates",
+   "classifier:adaboost:algorithm":"SAMME.R",
+   "classifier:adaboost:learning_rate":0.03555545274067569,
+   "classifier:adaboost:max_depth":9,
+   "classifier:adaboost:n_estimators":460,
+   "data_preprocessing:categorical_transformer:category_coalescence:minority_coalescer:minimum_fraction":0.25739375587279695,
+   "feature_preprocessor:select_rates:alpha":0.4031235591786059,
+   "feature_preprocessor:select_rates:mode":"fwe",
+   "feature_preprocessor:select_rates:score_func":"f_classif"
+}

@@ -1,0 +1,21 @@
+{
+   "balancing:strategy":"weighting",
+   "classifier:__choice__":"passive_aggressive",
+   "data_preprocessing:categorical_transformer:categorical_encoding:__choice__":"no_encoding",
+   "data_preprocessing:categorical_transformer:category_coalescence:__choice__":"minority_coalescer",
+   "data_preprocessing:numerical_transformer:imputation:strategy":"median",
+   "data_preprocessing:numerical_transformer:rescaling:__choice__":"quantile_transformer",
+   "feature_preprocessor:__choice__":"feature_agglomeration",
+   "classifier:passive_aggressive:C":0.014485858985592556,
+   "classifier:passive_aggressive:average":"True",
+   "classifier:passive_aggressive:fit_intercept":"True",
+   "classifier:passive_aggressive:loss":"hinge",
+   "classifier:passive_aggressive:tol":0.006102072204156812,
+   "data_preprocessing:categorical_transformer:category_coalescence:minority_coalescer:minimum_fraction":0.00202668361805695,
+   "data_preprocessing:numerical_transformer:rescaling:quantile_transformer:n_quantiles":1049,
+   "data_preprocessing:numerical_transformer:rescaling:quantile_transformer:output_distribution":"normal",
+   "feature_preprocessor:feature_agglomeration:affinity":"manhattan",
+   "feature_preprocessor:feature_agglomeration:linkage":"average",
+   "feature_preprocessor:feature_agglomeration:n_clusters":290,
+   "feature_preprocessor:feature_agglomeration:pooling_func":"median"
+}
