@@ -2,3 +2,4 @@ In this repository, we provide all the details of the tests and configurations r
 
 Questions send an email to:
 abneira@inf.ufpr.br
+amaraujo@inf.ufpr.br
